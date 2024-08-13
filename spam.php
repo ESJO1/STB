@@ -17,8 +17,8 @@ return json_decode($res);
 }
 }
 
-$admin = 1427981991;// 6579754875
-$user = "T_0_M0";//DevoleoH
+$admin = 6579754875;
+$user = "DevoleoH"
 $update = json_decode(file_get_contents('php://input'));
 $message= $update->message;
 $text = $message->text;
